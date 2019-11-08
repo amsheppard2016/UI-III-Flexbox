@@ -63,4 +63,57 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	width: 876px;
+	margin: 0 auto;
+	}
+header{
+	Display:flex;
+	justify-content: space-between;
+	margin:10px 0;
+	align-items:baseline;
+
+}
+button{
+	width:130px;
+}
+nav a{
+	color:gray;
+	margin-right:50px;
+}
+footer{
+	text-align:center;
+}
+.indexcontainer{
+	display:flex;
+	flex-direction:column;
+	}
+.titlelogo {
+	display:flex;
+	justify-content:space-around;
+}
+.left-side{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-content:center;
+	text-align:center;
+  }
+.left-side h1{
+	font-size:70px;
+	text-align:center;
+}
+.left-side button{
+	font-size:15px;
+}
+		
+.aboveimgcontent {
+	Display:flex;
+	justify-content:space-between;
+	margin:10px 0;
+}
+.belowimgcontent {
+	display:flex;
+	justify-content:space-between;
+	margin: 10px 0;
+}
