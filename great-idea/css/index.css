@@ -71,33 +71,57 @@ header{
 	Display:flex;
 	justify-content: space-between;
 	margin:10px 0;
-	align-items:baseline;
+	align-items:center;
 
 }
 button{
+	border-radius:10px;
 	width:130px;
+	margin-top:20px;
+	padding:8px 0;
+	background:white;
+	border:1px solid black;
 }
 nav a{
 	color:gray;
-	margin-right:50px;
+	margin-right:40px;
 }
+section{
+	margin-top:40px;
+}
+ul{
+	list-style-type: square;
+	margin-left:20px;
+	line-height:1.7;
+}
+
 footer{
 	text-align:center;
+	margin:60px 0;
+}
+.m-r-20{
+	margin-right:20px;
+}
+.f-s-12{
+	font-size:12px;
 }
 .indexcontainer{
 	display:flex;
 	flex-direction:column;
-	}
+}
+.services-header-img{
+	padding-top:30px;
+	padding-bottom:40px;
+}
 .titlelogo {
 	display:flex;
 	justify-content:space-around;
+	margin-top: 60px;
 }
 .left-side{
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
-	align-content:center;
-	text-align:center;
+	align-items:center;
   }
 .left-side h1{
 	font-size:70px;
@@ -110,10 +134,57 @@ footer{
 .aboveimgcontent {
 	Display:flex;
 	justify-content:space-between;
-	margin:10px 0;
+}
+.middle-img{
+	padding:30px 0;
 }
 .belowimgcontent {
 	display:flex;
 	justify-content:space-between;
-	margin: 10px 0;
+}
+.services2{
+	border-bottom: 1px solid black;
+	padding-bottom:40px;
+	margin-bottom:40px;
+}
+.services2 h2{
+	font-size: 25px;
+	
+}
+
+.digital-ux{
+	border-top:1px solid black;
+}
+.box1{
+	display:flex;
+	flex-direction:column;
+	border:1px solid black;
+	width:48%;
+	height;
+	padding:20px;
+}
+.row1{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	margin:10px 0;
+}
+
+.bottomrow{
+	display:flex;
+	width:100%;
+	border-top:1px solid black;
+	padding-top:40px;
+	margin-top:40px;
+}
+.img{
+	display:flex;
+	flex-direction:column;
+	border-top:1px solid black;
+	width:50%;
+}
+.serv-img{
+	display:flex;
+	flex-direction: column;
+	width:50%;
 }
